@@ -1,0 +1,75 @@
+.second_div{
+	box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: WHITE;
+	border-radius: 10px;
+	width: 375px;
+}
+
+.connecter{
+	text-align: left;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 10px;
+	font-family: arial;
+}
+
+#eye{
+	float: right;
+	padding-top: -27px;
+	margin-right:10px;
+    position: relative;
+    top: -40px;
+    left: -20px;
+    right:-10px;
+
+}
+
+input[type="text"] {
+	width: 300px;
+	border-radius: 5px;
+	border-color: #149ab9;
+	font-size: 20px;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-indent: 10px;
+	padding-right: 28px;
+}
+
+
+input[type="password"] {
+	width:300px;
+	border-radius: 5px;
+	border-color: #149ab9;
+	font-size: 20px;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-indent: 10px;
+	padding-right: 28px;
+}
+
+label{
+	font-weight: bold; 
+	font-family: arial;
+}
+
+input[type="submit"]{
+	width: 125px; 
+	height: 35px; 
+	margin-bottom: 15px;
+	margin-right: 15px;
+	background-color: #428bca;
+	color:white;
+	border-radius: 7px;
+	border: none;
+}
+
+input[type="submit"]:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+hr{
+	opacity: 0.4;
+}
